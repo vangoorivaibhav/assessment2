@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FoodHub Online Delivery</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Verdana, sans-serif;
+background:#fafafa;
+}
+
+header{
+background:#2e7d32;
+color:white;
+padding:25px;
+text-align:center;
+}
+
+nav{
+background:#1b5e20;
+display:flex;
+justify-content:center;
+}
+
+nav a{
+color:white;
+padding:14px 22px;
+text-decoration:none;
+}
+
+nav a:hover{
+background:#43a047;
+}
+
+.welcome{
+background:url('https://images.unsplash.com/photo-1504674900247-0877df9cc836') no-repeat center/cover;
+color:white;
+text-align:center;
+padding:110px 20px;
+}
+
+.welcome h2{
+font-size:36px;
+}
+
+.welcome p{
+max-width:650px;
+margin:20px auto;
+}
+
+.btn{
+background:#43a047;
+color:white;
+padding:10px 20px;
+border-radius:6px;
+text-decoration:none;
+}
+
+.categories{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:20px;
+padding:40px;
+}
+
+.category{
+background:white;
+padding:20px;
+border-radius:10px;
+text-align:center;
+box-shadow:0 3px 8px rgba(0,0,0,0.1);
+}
+
+.category img{
+width:100%;
+height:160px;
+object-fit:cover;
+border-radius:8px;
+}
+
+.menu{
+padding:40px;
+text-align:center;
+}
+
+.dishes{
+display:flex;
+justify-content:center;
+gap:25px;
+}
+
+.dish{
+background:white;
+padding:20px;
+border-radius:10px;
+width:250px;
+box-shadow:0 3px 8px rgba(0,0,0,0.1);
+}
+
+.price{
+font-weight:bold;
+margin:10px 0;
+}
+
+.contact{
+background:#eeeeee;
+padding:40px;
+text-align:center;
+}
+
+.footer{
+background:#1b5e20;
+color:white;
+text-align:center;
+padding:18px;
+}
+
+.bottom-right{
+position:fixed;
+bottom:10px;
+right:10px;
+background:white;
+padding:6px 12px;
+border-radius:5px;
+font-size:14px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>FoodHub Online Delivery</h1>
+<p>Fresh Food. Fast Delivery.</p>
+</header>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Menu</a>
+<a href="#">Order</a>
+<a href="#">Contact</a>
+</nav>
+
+<section class="welcome">
+<h2>Tasty Meals Delivered Quickly</h2>
+<p>FoodHub connects you with the best restaurants and delivers delicious meals straight to your home.</p>
+<a href="#" class="btn">Order Now</a>
+</section>
+
+<section class="categories">
+
+<div class="category">
+<img src="https://images.unsplash.com/photo-1594007654729-407eedc4be65">
+<h3>Pasta</h3>
+<p>Italian pasta with rich sauces.</p>
+</div>
+
+<div class="category">
+<img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd">
+<h3>Burgers</h3>
+<p>Fresh burgers with juicy patties.</p>
+</div>
+
+<div class="category">
+<img src="https://images.unsplash.com/photo-1604908176997-125f25cc6f3d">
+<h3>Fried Rice</h3>
+<p>Hot and spicy fried rice dishes.</p>
+</div>
+
+<div class="category">
+<img src="https://images.unsplash.com/photo-1551024709-8f23befc6c7f">
+<h3>Cakes</h3>
+<p>Sweet cakes and desserts.</p>
+</div>
+
+</section>
+
+<section class="menu">
+
+<h2>Popular Items</h2>
+
+<div class="dishes">
+
+<div class="dish">
+<h3>White Sauce Pasta</h3>
+<p>Creamy pasta with herbs.</p>
+<p class="price">₹249</p>
+<a href="#" class="btn">Add to Cart</a>
+</div>
+
+<div class="dish">
+<h3>Double Burger</h3>
+<p>Loaded burger with cheese.</p>
+<p class="price">₹219</p>
+<a href="#" class="btn">Add to Cart</a>
+</div>
+
+<div class="dish">
+<h3>Veg Fried Rice</h3>
+<p>Rice tossed with vegetables.</p>
+<p class="price">₹189</p>
+<a href="#" class="btn">Add to Cart</a>
+</div>
+
+</div>
+
+</section>
+
+<section class="contact">
+<h2>Contact Us</h2>
+<p>Phone: +91 9963062825</p>
+<p>Email: support@foodhub.com</p>
+<p>Location: Serving Vellore and nearby areas</p>
+</section>
+
+<footer class="footer">
+<p>© 2026 FoodHub Delivery</p>
+</footer>
+
+<div class="bottom-right">
+24BCE0572, VAIBHAV VANGOORI
+</div>
+
+</body>
+</html>
